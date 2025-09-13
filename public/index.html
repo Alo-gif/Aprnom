@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Battle Royale Prototype</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div id="ui">
+    <div id="name">Player: <span id="playerName">---</span></div>
+    <div id="hp">HP: <span id="hpVal">100</span></div>
+    <div id="inventory">Ammo: <span id="ammoVal">0</span> | Medkits: <span id="medVal">0</span></div>
+    <button id="useMed">Use Medkit</button>
+  </div>
+  <div id="game-container"></div>
+  <script src="game.js"></script>
+</body>
+</html>
