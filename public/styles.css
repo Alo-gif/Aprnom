@@ -1,0 +1,4 @@
+body { margin:0; font-family: Arial, sans-serif; background: #111; color:#eee; }
+#ui { position: absolute; z-index: 10; left: 8px; top: 8px; background: rgba(0,0,0,0.4); padding:8px; border-radius:6px;}
+#game-container { width: 100vw; height: 100vh; overflow: hidden; }
+button { margin-top:6px; }
