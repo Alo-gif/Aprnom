@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: battle-royale-prototype
+    env: node
+    plan: free
+    buildCommand: ""
+    startCommand: npm start
+    autoDeploy: true
